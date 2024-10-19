@@ -1,0 +1,264 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: darkturquoise;
+    border: 0.7px;
+}
+.title{
+    width: 327px;
+    height: 122px;
+    justify-content: center;
+    font-family: Gilda Display;
+    font-size: 52px;
+    line-height: 61.2px;
+    text-align: center;
+}
+h3{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+}
+container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.menu{
+    margin-left: auto;
+    border: 1.5px;
+}
+.background {
+    background-image: url(Blurry.jpg);
+}
+.first{
+    width: 432.6px;
+    height: 228px;
+    gap: 0px;
+}
+.word{
+    color: darkturquoise;
+}
+.first-word{
+    color: darkturquoise;
+    margin-right: 7px;
+    width: 52px;
+    height: 19px;
+    gap: 0px;
+    border: 0.7px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 16px;
+    line-height: 18.83px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.one{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+hr{
+    color: darkturquoise;
+}
+.paragraph{
+    width: 335px;
+    height: 48px;
+    gap: 0px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.lake{
+    width: 311px;
+    height: 262px;
+    gap: 0px;
+}
+.caption{
+    width: 303px;
+    height: 28px;
+    gap: 0px;
+    font-family: Urbanist;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 0%;
+}
+.fig{
+    display: flex;
+}
+.location{
+    width: 17px;
+    height: 20px;
+    top: 2px;
+    left: 3.5px;
+    gap: 0px;
+    margin-right: 5%;
+}
+.place{
+    width: 271px;
+    height: 24px;
+    gap: 0px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.pics{
+    width: 338.67px;
+    height: 248px;
+    gap: 0px;
+}
+.Why{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+}
+.we{
+    width: 335px;
+    height: 144px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.Best{
+    width: 295px;
+    height: 80px;
+    gap: 0px;
+    border: 0.4px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+}
+.More{
+    width: 112px;
+    height: 23px;
+    gap: 12px;
+    margin-right: 70px;
+}
+.colored{
+    color: white;
+    margin-right: 22px;
+}
+.end{
+    display: flex;
+    justify-content: end;
+}
+.Always{
+    width: 295px;
+    height: 80px;
+    gap: 0px;
+    border: 0.4px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    color: white;
+}
+.Line{
+    height: 48px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.Ready{
+    width: 295px;
+    height: 80px;
+    gap: 0px;
+    border: 0.4px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+}
+.Train{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+}
+.Watch{
+    width: 335px;
+    height: 156px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+}
+.get{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+}
+.Click button{
+    width: 147px;
+    height: 54px;
+    padding: 16px 32px 16px 32px;
+}
+h5{
+    width: 330.67px;
+    height: 36px;
+    gap: 0px;
+    font-family: Urbanist;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+.third-word{
+    color: #25a59e;
+}
+.fourth-word{
+    align-self: center;
+}
+.Click{
+    display: inline-block;
+    background-color: rgba(37, 165, 158, 1);
+    color: white;
+    padding: 16px 32px;
+}
+.last{
+    color: darkturquoise;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    height: 2px;
+    background-color: darkturquoise;
+    border-color: darkturquoise;
+}
+.ash{
+    background-color: darkturquoise;
+}
+.icons{
+    display: flex;
+    justify-content: center;  
+    width: 144px;
+    gap: 12px;
+    margin-left: 50px;   
+}
