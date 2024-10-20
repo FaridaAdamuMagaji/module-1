@@ -23,7 +23,16 @@ h3{
     font-family: Gilda Display;
     font-size: 40px;
     line-height: 52px;
+    text-align: left; 
+}
+.paragraph{
+    width: 335px;
+    height: 48px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
     text-align: left;
+    margin-top: -10%; 
 }
 container{
     display: flex;
@@ -65,15 +74,6 @@ container{
 hr{
     color: darkturquoise;
 }
-.paragraph{
-    width: 335px;
-    height: 48px;
-    gap: 0px;
-    font-family: Urbanist;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: left;
-}
 .lake{
     width: 311px;
     height: 262px;
@@ -87,7 +87,7 @@ hr{
     font-size: 20px;
     line-height: 28px;
     text-align: left;
-    margin-bottom: 0%;
+    margin-left: 2%;
 }
 .fig{
     display: flex;
@@ -114,58 +114,74 @@ hr{
     height: 248px;
     gap: 0px;
 }
+.no{
+    background-color: #eee;
+}
 .Why{
     width: 335px;
     height: 104px;
-    gap: 0px;
-    border: 0.2px 0px 0px 0px;
     font-family: Gilda Display;
     font-size: 40px;
     line-height: 52px;
-    text-align: center;
+    text-align: center; 
+    padding-top: 15%;
+    margin-bottom: 5%;
 }
 .we{
     width: 335px;
     height: 144px;
     font-family: Urbanist;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 25px;
     text-align: center;
+    margin-top: 0%;
 }
 .Best{
     width: 295px;
     height: 80px;
-    gap: 0px;
-    border: 0.4px 0px 0px 0px;
     font-family: Gilda Display;
     font-size: 28px;
     line-height: 40px;
     text-align: left;
+    margin-top: 0%;
+    margin-left: 7%;
+    margin-bottom: 0%;
+}
+.mine{
+    margin-top: 0%;
+    margin-left: 7%;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -18%;
+    margin-right: 7%;
 }
 .More{
     width: 112px;
     height: 23px;
-    gap: 12px;
-    margin-right: 70px;
+    color: darkturquoise;
+    margin-right: -5%;
 }
-.colored{
-    color: white;
-    margin-right: 22px;
-}
-.end{
-    display: flex;
-    justify-content: end;
+.ash{
+    background-color: #25a59e;
+    margin-bottom: -4%;
 }
 .Always{
     width: 295px;
     height: 80px;
-    gap: 0px;
-    border: 0.4px 0px 0px 0px;
     font-family: Gilda Display;
     font-size: 28px;
     line-height: 40px;
     text-align: left;
     color: white;
+    padding-top: 10%;
+    margin-left: 7%;
+}
+.colored{
+    color: white;
+    margin-left: 22px; 
+    margin-right: 3%;
 }
 .Line{
     height: 48px;
@@ -173,6 +189,9 @@ hr{
     font-size: 16px;
     line-height: 24px;
     text-align: left;
+    color: white;
+    margin-left: 7%;
+    margin-top: -15%;
 }
 .Ready{
     width: 295px;
@@ -183,6 +202,10 @@ hr{
     font-size: 28px;
     line-height: 40px;
     text-align: left;
+    margin-left: 7%;
+    padding-top: 7%;
+    margin-bottom: 5%;
+
 }
 .Train{
     width: 335px;
@@ -193,6 +216,19 @@ hr{
     font-size: 40px;
     line-height: 52px;
     text-align: left;
+    margin-bottom: 5%;
+}
+.last{
+    color: #25a59e;
+    padding-right: -25%;
+}
+.alpha{
+    width: 335px;
+    height: 96px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;    
 }
 .Watch{
     width: 335px;
@@ -209,16 +245,18 @@ hr{
     height: 104px;
     gap: 0px;
     border: 0.2px 0px 0px 0px;
-    font-family: Gilda Display;
     font-size: 40px;
     line-height: 52px;
     text-align: left;
+    margin-top: 0%;
+    margin-bottom: 10%;
 }
 .Click button{
     width: 147px;
     height: 54px;
     padding: 16px 32px 16px 32px;
 }
+
 h5{
     width: 330.67px;
     height: 36px;
@@ -252,13 +290,19 @@ hr{
     background-color: darkturquoise;
     border-color: darkturquoise;
 }
-.ash{
-    background-color: darkturquoise;
+.mega{
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: -5%;
 }
 .icons{
+    width: 335px;
     display: flex;
-    justify-content: center;  
-    width: 144px;
-    gap: 12px;
-    margin-left: 50px;   
+    justify-content: center;
 }
+.path-2{
+    padding-right: 10%;
+}
+
