@@ -1,10 +1,19 @@
 .container{
     display: flex;
     justify-content: space-between;
+    margin-top: -3%;
+    margin-left: 3%;
 }
 h1{
-    color: darkturquoise;
+    color: #25a59e;
     border: 0.7px;
+    font-family: Gilda Display;
+    font-size: 16px;
+    font-weight: 400;
+    width: 52px;
+    line-height: 18.83px;
+    letter-spacing: 0.1em;
+    text-align: left;
 }
 .title{
     width: 327px;
@@ -12,8 +21,11 @@ h1{
     justify-content: center;
     font-family: Gilda Display;
     font-size: 52px;
+    font-weight: 400;
     line-height: 61.2px;
     text-align: center;
+    margin-top: 25%;
+    margin-bottom: -7%;
 }
 h3{
     width: 335px;
@@ -22,8 +34,10 @@ h3{
     border: 0.2px 0px 0px 0px;
     font-family: Gilda Display;
     font-size: 40px;
+    font-weight: 400;
     line-height: 52px;
-    text-align: left; 
+    text-align: left;
+    margin-left: 2%; 
 }
 .paragraph{
     width: 335px;
@@ -36,23 +50,21 @@ h3{
 }
 container{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
 }
 .menu{
     margin-left: auto;
     border: 1.5px;
 }
 .background {
-    background-image: url(Blurry.jpg);
+    background-image: url(/pictures/Blurry.jpg);
 }
 .first{
     width: 432.6px;
     height: 228px;
-    gap: 0px;
+    margin-left: -4%;
 }
 .word{
-    color: darkturquoise;
+    color: #25a59e;
 }
 .first-word{
     color: darkturquoise;
@@ -78,16 +90,20 @@ hr{
     width: 311px;
     height: 262px;
     gap: 0px;
+    margin-left: 5%;
 }
 .caption{
     width: 303px;
     height: 28px;
     gap: 0px;
     font-family: Urbanist;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
     text-align: left;
     margin-left: 2%;
+    margin-bottom: 4%;
+    margin-top: 10%;
 }
 .fig{
     display: flex;
@@ -105,7 +121,8 @@ hr{
     height: 24px;
     gap: 0px;
     font-family: Urbanist;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
     line-height: 24px;
     text-align: left;
 }
@@ -113,9 +130,12 @@ hr{
     width: 338.67px;
     height: 248px;
     gap: 0px;
+    margin-top: 10%;
 }
 .no{
-    background-color: #eee;
+    background-color: #f1f0f0;
+    padding-bottom: 5%;
+    margin-top: -13%;
 }
 .Why{
     width: 335px;
@@ -143,19 +163,20 @@ hr{
     font-size: 28px;
     line-height: 40px;
     text-align: left;
-    margin-top: 0%;
+    margin-top: 8%;
     margin-left: 7%;
     margin-bottom: 0%;
 }
 .mine{
-    margin-top: 0%;
+    margin-top: 4%;
     margin-left: 7%;
 }
 .end{
     display: flex;
     justify-content: flex-end;
-    margin-bottom: -18%;
     margin-right: 7%;
+    margin-top: 17%;
+    margin-bottom: 4%;
 }
 .More{
     width: 112px;
@@ -165,7 +186,7 @@ hr{
 }
 .ash{
     background-color: #25a59e;
-    margin-bottom: -4%;
+    margin-bottom: 5%;
 }
 .Always{
     width: 295px;
@@ -203,8 +224,8 @@ hr{
     line-height: 40px;
     text-align: left;
     margin-left: 7%;
-    padding-top: 7%;
     margin-bottom: 5%;
+    margin-top: 7%;
 
 }
 .Train{
@@ -217,6 +238,7 @@ hr{
     line-height: 52px;
     text-align: left;
     margin-bottom: 5%;
+    margin-top: 25%;
 }
 .last{
     color: #25a59e;
@@ -245,7 +267,9 @@ hr{
     height: 104px;
     gap: 0px;
     border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
     font-size: 40px;
+    font-weight: 400;
     line-height: 52px;
     text-align: left;
     margin-top: 0%;
@@ -289,6 +313,7 @@ hr{
     height: 2px;
     background-color: darkturquoise;
     border-color: darkturquoise;
+    margin-top: auto;
 }
 .mega{
     font-family: Urbanist;
