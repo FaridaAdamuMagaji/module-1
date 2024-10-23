@@ -1,0 +1,336 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3%;
+    margin-left: 3%;
+}
+h1{
+    color: #25a59e;
+    border: 0.7px;
+    font-family: Gilda Display;
+    font-size: 16px;
+    font-weight: 400;
+    width: 52px;
+    line-height: 18.83px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.title{
+    width: 327px;
+    height: 122px;
+    justify-content: center;
+    font-family: Gilda Display;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 61.2px;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: -7%;
+}
+h3{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    margin-left: 2%; 
+}
+.paragraph{
+    width: 335px;
+    height: 48px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: -10%; 
+}
+container{
+    display: flex;
+}
+.menu{
+    margin-left: auto;
+    border: 1.5px;
+}
+.background {
+    background-image: url(/pictures/Blurry.jpg);
+}
+.first{
+    width: 432.6px;
+    height: 228px;
+    margin-left: -4%;
+}
+.word{
+    color: #25a59e;
+}
+.first-word{
+    color: darkturquoise;
+    margin-right: 7px;
+    margin-top: 20%;
+    width: 52px;
+    height: 19px;
+    gap: 0px;
+    border: 0.7px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 16px;
+    line-height: 18.83px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.one{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+hr{
+    color: darkturquoise;
+}
+.lake{
+    width: 311px;
+    height: 262px;
+    gap: 0px;
+    margin-left: 5%;
+}
+.caption{
+    width: 303px;
+    height: 28px;
+    gap: 0px;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    margin-top: 10%;
+}
+.fig{
+    display: flex;
+}
+.location{
+    width: 17px;
+    height: 20px;
+    top: 2px;
+    left: 3.5px;
+    gap: 0px;
+    margin-right: 5%;
+}
+.place{
+    width: 271px;
+    height: 24px;
+    gap: 0px;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.pics{
+    width: 338.67px;
+    height: 248px;
+    gap: 0px;
+    margin-top: 10%;
+}
+.no{
+    background-color: #f1f0f0;
+    padding-bottom: 5%;
+    margin-top: -13%;
+}
+.Why{
+    width: 335px;
+    height: 104px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center; 
+    padding-top: 15%;
+    margin-bottom: 5%;
+}
+.we{
+    width: 335px;
+    height: 144px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 0%;
+}
+.Best{
+    width: 295px;
+    height: 80px;
+    font-family: Gilda Display;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 7%;
+    margin-bottom: 0%;
+}
+.mine{
+    margin-top: 4%;
+    margin-left: 7%;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+    margin-top: 17%;
+    margin-bottom: 4%;
+}
+.More{
+    width: 112px;
+    height: 23px;
+    color: darkturquoise;
+    margin-right: -5%;
+}
+.ash{
+    background-color: #25a59e;
+    margin-bottom: 5%;
+}
+.Always{
+    width: 295px;
+    height: 80px;
+    font-family: Gilda Display;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    color: white;
+    padding-top: 10%;
+    margin-left: 7%;
+}
+.colored{
+    color: white;
+    margin-left: 22px; 
+    margin-right: 3%;
+}
+.Line{
+    height: 48px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    margin-left: 7%;
+    margin-top: -15%;
+}
+.Ready{
+    width: 295px;
+    height: 80px;
+    gap: 0px;
+    border: 0.4px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    margin-top: 7%;
+
+}
+.Train{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: 25%;
+}
+.last{
+    color: #25a59e;
+    padding-right: -25%;
+}
+.alpha{
+    width: 335px;
+    height: 96px;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;    
+}
+.Watch{
+    width: 335px;
+    height: 156px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+}
+.get{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.Click button{
+    width: 147px;
+    height: 54px;
+    padding: 16px 32px 16px 32px;
+}
+
+h5{
+    width: 330.67px;
+    height: 36px;
+    gap: 0px;
+    font-family: Urbanist;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+.third-word{
+    color: #25a59e;
+}
+.fourth-word{
+    align-self: center;
+}
+.Click{
+    display: inline-block;
+    background-color: rgba(37, 165, 158, 1);
+    color: white;
+    padding: 16px 32px;
+}
+.last{
+    color: darkturquoise;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    height: 2px;
+    background-color: darkturquoise;
+    border-color: darkturquoise;
+    margin-top: auto;
+}
+.mega{
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: -5%;
+}
+.icons{
+    width: 335px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    margin-bottom: 10%;
+}
+.path-2{
+    padding-right: 10%;
+}
+
