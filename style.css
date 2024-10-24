@@ -1,8 +1,9 @@
 .container{
     display: flex;
     justify-content: space-between;
-    margin-top: -3%;
-    margin-left: 3%;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 h1{
     color: #25a59e;
@@ -24,8 +25,9 @@ h1{
     font-weight: 400;
     line-height: 61.2px;
     text-align: center;
-    margin-top: 25%;
-    margin-bottom: -7%;
+    margin-top: 90px;
+    margin-bottom: -25px;
+    margin-left: 65px;
 }
 h3{
     width: 335px;
@@ -37,7 +39,7 @@ h3{
     font-weight: 400;
     line-height: 52px;
     text-align: left;
-    margin-left: 2%; 
+    margin-left: 40px; 
 }
 .paragraph{
     width: 335px;
@@ -46,7 +48,8 @@ h3{
     font-size: 16px;
     line-height: 24px;
     text-align: left;
-    margin-top: -10%; 
+    margin-top: -30px;
+    margin-left: 40px; 
 }
 container{
     display: flex;
@@ -61,7 +64,7 @@ container{
 .first{
     width: 432.6px;
     height: 228px;
-    margin-left: -4%;
+    margin-left: 40PX;
 }
 .word{
     color: #25a59e;
@@ -69,7 +72,7 @@ container{
 .first-word{
     color: darkturquoise;
     margin-right: 7px;
-    margin-top: 20%;
+    margin-top: 40px;
     width: 52px;
     height: 19px;
     gap: 0px;
@@ -79,6 +82,8 @@ container{
     line-height: 18.83px;
     letter-spacing: 0.1em;
     text-align: left;
+    margin-left: 50px;
+    margin-top: 80px;
 }
 .one{
     padding-left: 24px;
@@ -91,7 +96,7 @@ hr{
     width: 311px;
     height: 262px;
     gap: 0px;
-    margin-left: 5%;
+    margin-left: 75px;
 }
 .caption{
     width: 303px;
@@ -102,12 +107,13 @@ hr{
     font-weight: 700;
     line-height: 36px;
     text-align: left;
-    margin-left: 2%;
-    margin-bottom: 4%;
-    margin-top: 10%;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 35px;
 }
 .fig{
     display: flex;
+    margin-left: 75px;
 }
 .location{
     width: 17px;
@@ -115,7 +121,7 @@ hr{
     top: 2px;
     left: 3.5px;
     gap: 0px;
-    margin-right: 5%;
+    margin-right: 15px;
 }
 .place{
     width: 271px;
@@ -124,19 +130,22 @@ hr{
     font-family: Urbanist;
     font-size: 18px;
     font-weight: 600;
-    line-height: 24px;
-    text-align: left;
+    
 }
 .pics{
     width: 338.67px;
     height: 248px;
     gap: 0px;
-    margin-top: 10%;
+    margin-top: 45px;
+    margin-left: 70px;
+    transform: rotate(-180deg);
+    border: 1px;
+    background-color:  #f2f2f2;
 }
 .no{
-    background-color: #f1f0f0;
-    padding-bottom: 5%;
-    margin-top: -13%;
+    padding-bottom: 5px;
+    margin-top: -25px;
+    margin-left: 75px;
 }
 .Why{
     width: 335px;
@@ -145,8 +154,8 @@ hr{
     font-size: 40px;
     line-height: 52px;
     text-align: center; 
-    padding-top: 15%;
-    margin-bottom: 5%;
+    padding-top: 5px;
+    margin-bottom: 5px;
 }
 .we{
     width: 335px;
@@ -155,7 +164,7 @@ hr{
     font-size: 16px;
     line-height: 25px;
     text-align: center;
-    margin-top: 0%;
+    margin-top: 0;
 }
 .Best{
     width: 295px;
@@ -164,30 +173,35 @@ hr{
     font-size: 28px;
     line-height: 40px;
     text-align: left;
-    margin-top: 8%;
-    margin-left: 7%;
-    margin-bottom: 0%;
+    margin-top: 28px;
+    margin-left: 65px;
+    margin-bottom: 0;
+    border: 30px;
 }
 .mine{
-    margin-top: 4%;
-    margin-left: 7%;
+    margin-top: 4px;
+    margin-left: 65px;
+    margin-right: 50px;
+    border: 50px;
 }
 .end{
     display: flex;
     justify-content: flex-end;
-    margin-right: 7%;
-    margin-top: 17%;
-    margin-bottom: 4%;
+    margin-right: 54px;
+    margin-top: 57px;
+    margin-bottom: 28px;
 }
 .More{
     width: 112px;
     height: 23px;
     color: darkturquoise;
-    margin-right: -5%;
+    margin-right: -8px;
 }
 .ash{
     background-color: #25a59e;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .Always{
     width: 295px;
@@ -197,13 +211,17 @@ hr{
     line-height: 40px;
     text-align: left;
     color: white;
-    padding-top: 10%;
-    margin-left: 7%;
+    padding-top: 30px;
+    margin-left: 65px;
+    border: 30px;
 }
 .colored{
     color: white;
     margin-left: 22px; 
-    margin-right: 3%;
+    margin-right: 15px;
+}
+.white{
+    margin-right: -50px;
 }
 .Line{
     height: 48px;
@@ -212,8 +230,8 @@ hr{
     line-height: 24px;
     text-align: left;
     color: white;
-    margin-left: 7%;
-    margin-top: -15%;
+    margin-left: 65px;
+    margin-top: -50px;
 }
 .Ready{
     width: 295px;
@@ -224,9 +242,9 @@ hr{
     font-size: 28px;
     line-height: 40px;
     text-align: left;
-    margin-left: 7%;
-    margin-bottom: 5%;
-    margin-top: 7%;
+    margin-left: 65px;
+    margin-bottom: 15px;
+    margin-top: 25px;
 
 }
 .Train{
@@ -238,12 +256,13 @@ hr{
     font-size: 40px;
     line-height: 52px;
     text-align: left;
-    margin-bottom: 5%;
-    margin-top: 25%;
+    margin-bottom: 15px;
+    margin-top: 80px;
+    margin-left: 80px;
 }
 .last{
     color: #25a59e;
-    padding-right: -25%;
+    padding-right: -25px;
 }
 .alpha{
     width: 335px;
@@ -251,17 +270,44 @@ hr{
     font-family: Urbanist;
     font-size: 16px;
     line-height: 24px;
-    text-align: left;    
+    text-align: left;
+    margin-left: 75px;    
+}
+
 }
 .Watch{
     width: 335px;
     height: 156px;
     gap: 0px;
     border: 0.2px 0px 0px 0px;
+    margin-top: 7px;
+    margin-bottom: 27px;
     font-family: Gilda Display;
     font-size: 40px;
     line-height: 52px;
     text-align: center;
+    margin-left: 70px;
+}
+.background-2{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-left: 95px;
+    margin-right: 40px;
+    margin-top: 126px;
+}
+.pic{
+    position: relative;
+    width: 335.11px;
+    height: 247px;
+    object-fit: cover;
+    margin-left: 65px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.video{
+    margin-left: 50px;
 }
 .get{
     width: 335px;
@@ -273,13 +319,16 @@ hr{
     font-weight: 400;
     line-height: 52px;
     text-align: left;
-    margin-top: 0%;
-    margin-bottom: 10%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
 .Click button{
     width: 147px;
     height: 54px;
     padding: 16px 32px 16px 32px;
+    margin-left: 70px;
+    margin-top: 5px;
 }
 
 h5{
@@ -302,6 +351,8 @@ h5{
     background-color: rgba(37, 165, 158, 1);
     color: white;
     padding: 16px 32px;
+    margin-left: 50px;
+    text-decoration: none;
 }
 .last{
     color: darkturquoise;
@@ -309,28 +360,35 @@ h5{
 .footer{
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 hr{
     height: 2px;
     background-color: darkturquoise;
     border-color: darkturquoise;
     margin-top: auto;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .mega{
     font-family: Urbanist;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
-    margin-top: -5%;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .icons{
     width: 335px;
     display: flex;
     justify-content: center;
-    margin-top: 12%;
-    margin-bottom: 10%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 60px;
 }
 .path-2{
-    padding-right: 10%;
+    padding-right: 40px;
 }
 
