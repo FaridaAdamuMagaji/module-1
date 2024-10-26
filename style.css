@@ -280,7 +280,7 @@ hr{
     height: 156px;
     gap: 0px;
     border: 0.2px 0px 0px 0px;
-    margin-top: 7px;
+    margin-top: 10px;
     margin-bottom: 27px;
     font-family: Gilda Display;
     font-size: 40px;
@@ -290,21 +290,24 @@ hr{
 }
 .background-2{
     position: relative;
-    width: 200px;
-    height: 50px;
-    margin-left: 95px;
-    margin-right: 40px;
-    margin-top: 126px;
 }
 .pic{
-    position: relative;
     width: 335.11px;
-    height: 247px;
-    object-fit: cover;
+    height: 247px;;
     margin-left: 65px;
     margin-right: 10px;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    margin-top: -150px;
+    margin-bottom: 70px;
+    border: none;
+    outline: none;
+}
+.small{
+    position: absolute;
+    z-index: -1;
+    transform: translateX(-50px);
+    margin-bottom: 70px;
+    margin-left: -320px;
+    width: 400px;
 }
 .video{
     margin-left: 50px;
