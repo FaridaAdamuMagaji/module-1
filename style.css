@@ -273,8 +273,6 @@ hr{
     text-align: left;
     margin-left: 75px;    
 }
-
-}
 .Watch{
     width: 335px;
     height: 156px;
@@ -290,24 +288,31 @@ hr{
 }
 .background-2{
     position: relative;
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
 }
 .pic{
     width: 335.11px;
-    height: 247px;;
-    margin-left: 65px;
+    height: 247px;
+    z-index: 2;
+    position: relative;
+    transform: translate(-50%, -50%);
+    margin-left: 125px;
     margin-right: 10px;
-    margin-top: -150px;
+    margin-top: 115px;
     margin-bottom: 70px;
     border: none;
     outline: none;
 }
 .small{
     position: absolute;
-    z-index: -1;
-    transform: translateX(-50px);
-    margin-bottom: 70px;
-    margin-left: -320px;
-    width: 400px;
+    z-index: 1;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    margin-left: 70px;
+    width: 276px;
+    height: 121px;
 }
 .video{
     margin-left: 50px;
