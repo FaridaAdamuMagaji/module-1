@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
     display: flex;
     justify-content: space-between;
@@ -21,25 +26,23 @@ h1{
     height: 122px;
     justify-content: center;
     font-family: Gilda Display;
-    font-size: 52px;
+    font-size: 500%;
     font-weight: 400;
     line-height: 61.2px;
     text-align: center;
-    margin-top: 90px;
-    margin-bottom: -25px;
+    margin-top: 110px;
     margin-left: 65px;
 }
 h3{
     width: 335px;
-    height: 104px;
-    gap: 0px;
-    border: 0.2px 0px 0px 0px;
     font-family: Gilda Display;
     font-size: 40px;
     font-weight: 400;
     line-height: 52px;
-    text-align: left;
-    margin-left: 40px; 
+    top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -190px;
 }
 .paragraph{
     width: 335px;
@@ -47,9 +50,9 @@ h3{
     font-family: Urbanist;
     font-size: 16px;
     line-height: 24px;
-    text-align: left;
-    margin-top: -30px;
-    margin-left: 40px; 
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px; 
 }
 container{
     display: flex;
@@ -58,16 +61,47 @@ container{
     margin-left: auto;
     border: 1.5px;
 }
-.background {
-    background-image: url(/pictures/Blurry.jpg);
-}
-.first{
-    width: 432.6px;
-    height: 228px;
-    margin-left: 40PX;
-}
 .word{
     color: #25a59e;
+}
+.image-container {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    max-width: 600px;
+    margin: auto;
+    top: 5px;
+}
+.ellipse {
+    position: absolute;
+    width: 90%;
+    top: 24px;
+    left: 0;
+    transform: translateY(7.5%);
+} 
+.header-image {
+    position: absolute;
+    width: 100%;
+    top: 6px;
+    left: -80px;
+    z-index: 1;
+    transform: translateX(15%);
+}
+.blur {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(-35%);
+}
+.travel-text {
+    font-size: 400%;
+    font: Gilda Display;
+    font-weight: 400;
+    padding-top: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
 }
 .first-word{
     color: darkturquoise;
@@ -143,9 +177,9 @@ hr{
     background-color:  #f2f2f2;
 }
 .no{
-    padding-bottom: 5px;
-    margin-top: -25px;
-    margin-left: 75px;
+    padding: 40px;
+    margin-top: 40px;
+    
 }
 .Why{
     width: 335px;
@@ -154,8 +188,9 @@ hr{
     font-size: 40px;
     line-height: 52px;
     text-align: center; 
+    border: 30px;
     padding-top: 5px;
-    margin-bottom: 5px;
+    margin-left: 35px;
 }
 .we{
     width: 335px;
@@ -165,6 +200,7 @@ hr{
     line-height: 25px;
     text-align: center;
     margin-top: 0;
+    margin-left: 35px;
 }
 .Best{
     width: 295px;
@@ -173,16 +209,14 @@ hr{
     font-size: 28px;
     line-height: 40px;
     text-align: left;
-    margin-top: 28px;
     margin-left: 65px;
-    margin-bottom: 0;
-    border: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
 }
 .mine{
     margin-top: 4px;
     margin-left: 65px;
     margin-right: 50px;
-    border: 50px;
 }
 .end{
     display: flex;
@@ -203,6 +237,10 @@ hr{
     margin-left: 50px;
     margin-right: 50px;
 }
+.card{
+    border-color: #FFFFFF;
+    border: 1px;
+}
 .Always{
     width: 295px;
     height: 80px;
@@ -211,8 +249,8 @@ hr{
     line-height: 40px;
     text-align: left;
     color: white;
-    padding-top: 30px;
-    margin-left: 65px;
+    padding-top: 0px;
+    margin-left: 20px;
     border: 30px;
 }
 .colored{
@@ -230,8 +268,9 @@ hr{
     line-height: 24px;
     text-align: left;
     color: white;
-    margin-left: 65px;
-    margin-top: -50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0;
 }
 .Ready{
     width: 295px;
@@ -245,7 +284,6 @@ hr{
     margin-left: 65px;
     margin-bottom: 15px;
     margin-top: 25px;
-
 }
 .Train{
     width: 335px;
@@ -277,20 +315,43 @@ hr{
     width: 335px;
     height: 156px;
     gap: 0px;
-    border: 0.2px 0px 0px 0px;
     margin-top: 10px;
     margin-bottom: 27px;
     font-family: Gilda Display;
     font-size: 40px;
     line-height: 52px;
     text-align: center;
-    margin-left: 70px;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
 }
-.background-2{
+.contain{
     position: relative;
-    width: 100px;
-    height: 80px;
-    overflow: hidden;
+    height: 250px;
+    padding-left: 65px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.tourists{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 20px;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    /* object-fit: contain; */
+}
+.shape{
+    position: absolute;
+    width: 320px;
+    padding: 20px;
+    bottom: -20px;
+    margin-left: 25px;
+    /* margin-left: 10px; */
+    /* position: relative; */
+    /* object-fit: cover; */
 }
 .pic{
     width: 335.11px;
@@ -315,7 +376,7 @@ hr{
     height: 121px;
 }
 .video{
-    margin-left: 50px;
+    margin: 0;
 }
 .get{
     width: 335px;
@@ -327,7 +388,7 @@ hr{
     font-weight: 400;
     line-height: 52px;
     text-align: left;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 50px;
 }
@@ -370,6 +431,8 @@ h5{
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 45px;
 }
 hr{
     height: 2px;
