@@ -13,7 +13,7 @@
 h1{
     color: #25a59e;
     border: 0.7px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 16px;
     font-weight: 400;
     width: 52px;
@@ -25,7 +25,7 @@ h1{
     width: 327px;
     height: 122px;
     justify-content: center;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 500%;
     font-weight: 400;
     line-height: 61.2px;
@@ -35,7 +35,7 @@ h1{
 }
 h3{
     width: 335px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 40px;
     font-weight: 400;
     line-height: 52px;
@@ -47,7 +47,7 @@ h3{
 .paragraph{
     width: 335px;
     height: 48px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-size: 16px;
     line-height: 24px;
     margin-top: 25px;
@@ -111,7 +111,7 @@ container{
     height: 19px;
     gap: 0px;
     border: 0.7px 0px 0px 0px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 16px;
     line-height: 18.83px;
     letter-spacing: 0.1em;
@@ -125,6 +125,8 @@ container{
 }
 hr{
     color: darkturquoise;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 .lake{
     width: 311px;
@@ -136,7 +138,7 @@ hr{
     width: 303px;
     height: 28px;
     gap: 0px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -161,9 +163,9 @@ hr{
     width: 271px;
     height: 24px;
     gap: 0px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     
 }
 .pics{
@@ -173,19 +175,19 @@ hr{
     margin-top: 45px;
     margin-left: 70px;
     transform: rotate(-180deg);
-    border: 1px;
-    background-color:  #f2f2f2;
 }
 .no{
-    padding: 40px;
+    background-color: rgb(250, 248, 248);
     margin-top: 40px;
-    
+    margin-left: 18px;
+    padding: 20px;
 }
 .Why{
     width: 335px;
     height: 104px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 40px;
+    font-weight: 400;
     line-height: 52px;
     text-align: center; 
     border: 30px;
@@ -195,17 +197,20 @@ hr{
 .we{
     width: 335px;
     height: 144px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-size: 16px;
     line-height: 25px;
     text-align: center;
     margin-top: 0;
-    margin-left: 35px;
+    margin-left: 45px;
+}
+.guide{
+    border: 15px solid rgb(237, 237, 243);;
 }
 .Best{
     width: 295px;
     height: 80px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 28px;
     line-height: 40px;
     text-align: left;
@@ -231,20 +236,21 @@ hr{
     color: darkturquoise;
     margin-right: -8px;
 }
+.Train{
+    font-weight: 400;
+}
 .ash{
+    border:10px solid rgb(237, 237, 243);
     background-color: #25a59e;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 20px;
 }
 .card{
-    border-color: #FFFFFF;
-    border: 1px;
+    border:15px solid rgb(237, 237, 243);
 }
 .Always{
     width: 295px;
     height: 80px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 28px;
     line-height: 40px;
     text-align: left;
@@ -263,7 +269,7 @@ hr{
 }
 .Line{
     height: 48px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-size: 16px;
     line-height: 24px;
     text-align: left;
@@ -277,7 +283,7 @@ hr{
     height: 80px;
     gap: 0px;
     border: 0.4px 0px 0px 0px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 28px;
     line-height: 40px;
     text-align: left;
@@ -290,13 +296,14 @@ hr{
     height: 104px;
     gap: 0px;
     border: 0.2px 0px 0px 0px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 40px;
     line-height: 52px;
     text-align: left;
     margin-bottom: 15px;
-    margin-top: 80px;
+    margin-top: 0px;
     margin-left: 80px;
+    padding-top: 50px;
 }
 .last{
     color: #25a59e;
@@ -305,11 +312,12 @@ hr{
 .alpha{
     width: 335px;
     height: 96px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-size: 16px;
     line-height: 24px;
     text-align: left;
-    margin-left: 75px;    
+    margin-left: 75px;
+    padding-top: 50px;   
 }
 .Watch{
     width: 335px;
@@ -317,31 +325,26 @@ hr{
     gap: 0px;
     margin-top: 10px;
     margin-bottom: 27px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 40px;
     line-height: 52px;
     text-align: center;
     justify-content: center;
     padding: 25px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 70px;
+    margin-right: 30px;
     
 }
 .contain{
     position: relative;
     height: 250px;
     padding-left: 65px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    margin-top: 40px;
 }
 .tourists{
     position: absolute;
     bottom: 0px;
     margin-left: 20px;
-    /* margin-left: 50px; */
-    /* position: absolute; */
-    /* object-fit: contain; */
 }
 .shape{
     position: absolute;
@@ -376,14 +379,16 @@ hr{
     height: 121px;
 }
 .video{
-    margin: 0;
+    width: 60%;
+    height: 30%;
+
 }
 .get{
     width: 335px;
     height: 104px;
     gap: 0px;
     border: 0.2px 0px 0px 0px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-size: 40px;
     font-weight: 400;
     line-height: 52px;
@@ -404,7 +409,7 @@ h5{
     width: 330.67px;
     height: 36px;
     gap: 0px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-size: 24px;
     line-height: 36px;
     text-align: left;
@@ -423,9 +428,6 @@ h5{
     margin-left: 50px;
     text-decoration: none;
 }
-.last{
-    color: darkturquoise;
-}
 .footer{
     display: flex;
     justify-content: space-between;
@@ -438,12 +440,13 @@ hr{
     height: 2px;
     background-color: darkturquoise;
     border-color: darkturquoise;
+    padding: 1px;
     margin-top: auto;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 .mega{
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-size: 16px;
     line-height: 24px;
     text-align: left;
