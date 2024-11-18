@@ -74,16 +74,20 @@ container{
     position: absolute;
     width: 90%;
     top: 24px;
-    left: 0;
     transform: translateY(7.5%);
+    align-self: center;
+    justify-self: center;
+    left: 18px;
 } 
 .header-image {
     position: absolute;
     width: 100%;
     top: 6px;
-    left: -80px;
+    left: -66px;
     z-index: 1;
     transform: translateX(15%);
+    align-self: center;
+    justify-self: center;
 }
 .blur {
     position: absolute;
@@ -91,6 +95,8 @@ container{
     top: 0;
     left: 0;
     transform: translateY(-35%);
+    align-self: center;
+    justify-self: center;
 }
 .travel-text {
     font-size: 400%;
@@ -168,7 +174,6 @@ hr{
     
 }
 .pics{
-    width: 338.67px;
     height: 248px;
     gap: 0px;
     margin-top: 45px;
@@ -206,7 +211,7 @@ hr{
     margin-left: 45px;
 }
 .guide{
-    border: 15px solid rgb(237, 237, 243);;
+    border: 25px solid rgb(237, 237, 243);
 }
 .Best{
     width: 295px;
@@ -241,12 +246,17 @@ hr{
     font-weight: 400;
 }
 .ash{
-    border:10px solid rgb(237, 237, 243);
+    border:25px solid rgb(237, 237, 243);
     background-color: #25a59e;
-    padding: 20px;
+    padding: 10px;
+    margin-top: -24px;
 }
 .card{
-    border:15px solid rgb(237, 237, 243);
+    border:25px solid rgb(237, 237, 243);
+    margin-top: -24px;
+}
+.board{
+    /*background-color: rgb(234, 234, 240);*/
 }
 .Always{
     width: 295px;
@@ -300,10 +310,9 @@ hr{
     font-family: "Gilda Display";
     font-size: 40px;
     line-height: 52px;
-    text-align: left;
+    margin-left: 70px;
     margin-bottom: 15px;
     margin-top: 0px;
-    margin-left: 80px;
     padding-top: 50px;
 }
 .last{
@@ -316,8 +325,8 @@ hr{
     font-family: "Urbanist";
     font-size: 16px;
     line-height: 24px;
-    text-align: left;
-    margin-left: 75px;
+    text-align: center;
+    justify-self: center;
     padding-top: 50px;   
 }
 .Watch{
