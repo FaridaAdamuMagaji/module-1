@@ -471,3 +471,85 @@ hr{
     padding-right: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+    .container {
+        
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    *{
+        margin: 1px;
+    }
+    .h1{
+        font-size: 28px;
+        line-height: 32.96px;
+        
+    }
+    .menu{
+        width: 28px;
+        height: 23px;
+    }
+    .container{
+        margin-left: 125px;
+        margin-right: 125px;
+
+    }
+    .travel-text{
+        font-size: 148px;
+        font-weight: 400;
+        margin-top: -110px;
+        width: 1040px;
+        height: 330px;
+        justify-self: center;
+        line-height: 80px;
+    }
+    .image-container{
+        /*width: 1072px;*/
+        height: 605px;
+    }
+    .blur{
+        margin-top: 90px;
+        left: -120px;
+        width: 850px;
+        height: 450px;
+    }
+    .ellipse{
+        width: 640px;
+        right: 50px;
+        height: 307px;
+        top: 53px;
+    }
+    .header-image{
+        width: 660px;
+        height: 412px;
+        margin-bottom: 40px;
+        margin-top: -35px;
+        margin-left: -40px;
+    }
+    .h3{
+        align-self: center;
+        justify-self: center;
+    
+    }
+    .paragraph{
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        justify-self: center;
+        left: 50%;
+
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px;
+        justify-content: space-around;
+    }
+    .all{
+        d
+    }
+
+
+
+}
