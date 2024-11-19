@@ -543,11 +543,52 @@ hr{
     .gallery{
         display: flex;
         flex-wrap: wrap;
-        margin: 80px;
+        margin: 100px;
         justify-content: space-around;
+        
+        
     }
     .all{
-        d
+        
+    }
+    .Why{
+        text-align: center;
+        justify-self: center;
+        font-size: 72px;
+        line-height: 64px;
+        width: 640px;
+    }
+    .we{
+        text-align: center;
+        justify-self: center;
+        width: 879px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+    .three{
+        display: flex;
+    }
+    .two{
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .Train{
+        width: 534px;
+        height: 168px;
+        font-size: 72px;
+        margin-bottom: -20px;
+    
+    }
+    .alpha{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    height: 96px;
+    width: 534px;
+    
+
     }
 
 
