@@ -345,6 +345,12 @@ hr{
     margin-right: 30px;
     
 }
+.video{
+    
+}
+.play{
+
+    }
 .contain{
     position: relative;
     height: 250px;
@@ -570,27 +576,82 @@ hr{
         display: flex;
     }
     .two{
-        margin: 20px;
         display: flex;
         flex-direction: row;
+        
+    }
+    .board{
+        margin-left: 50px;
+        width: 534px;
+        height: 292px;
+        border: 1px solid blue;
+        padding: 0.5px;
+        margin-top: 60px;
     }
     .Train{
         width: 534px;
-        height: 168px;
-        font-size: 72px;
-        margin-bottom: -20px;
-    
+        height: 174px;
+        font-size: 65px;
+        margin-bottom: -30px;
     }
     .alpha{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    height: 96px;
-    width: 534px;
-    
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+        height: 96px;
+        width: 534px;
+        justify-self: flex-start;
+        margin-left: 25px;
+        padding: 50px;
+    }
+    .Watch{
+        font-size: 72px;
+        width: 680px;
+        height: 168px;
+        border: 0.2px;
+        margin-top: 50px;
+        margin-bottom: 8px;
+        text-align: center;
+        justify-self: center;
+    }
+    .offer{
+        margin: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .get{
 
     }
-
+    .Click{
+        margin-top: 30px;
+    }
+    .first-word{
+        width: 91px;
+        height: 33px;
+        margin-left: 75px;
+    }
+    .mega{
+        font-size: 18px;
+        width: 313px;
+        height: 64px;
+        line-height: 32px;
+        margin-left: 55px;
+        margin-top: -10px;
+        padding: 20px;
+    }
+    .flat{
+        
+    }
+    .icons{
+        padding: 20px;
+        justify-content: start;
+    }
+    .footer{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 40px;
+    }
 
 
 }
