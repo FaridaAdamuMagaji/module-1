@@ -477,66 +477,63 @@ hr{
     padding-right: 40px;
 }
 
-@media only screen and (min-width: 768px) {
-    .container {
-        
-    }
-}
 
-@media only screen and (min-width: 992px) {
-    *{
+@media only screen and (min-width: 995px) {
+    body{
         margin: 1px;
+        overflow-x: hidden;
     }
-    .h1{
-        font-size: 28px;
+    h1{
+        font-size: 30px;
         line-height: 32.96px;
-        
     }
     .menu{
-        width: 28px;
-        height: 23px;
+        width: 40px;
     }
     .container{
-        margin-left: 125px;
-        margin-right: 125px;
-
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .travel-text{
-        font-size: 148px;
+        font-size: 108px;
         font-weight: 400;
-        margin-top: -110px;
-        width: 1040px;
+        margin-top: -30px;
+        width: 900px;
         height: 330px;
         justify-self: center;
-        line-height: 80px;
+        line-height: 85px;
+        padding: 80px;
     }
     .image-container{
-        /*width: 1072px;*/
-        height: 605px;
+        width: 1072px;
+        height: 600px;
+        margin-top: -10px;
     }
     .blur{
-        margin-top: 90px;
-        left: -120px;
-        width: 850px;
-        height: 450px;
+        margin-top: 60px;
+        margin-left: -50px;
+        width: 700px;
+        height: 450px; 
     }
     .ellipse{
         width: 640px;
-        right: 50px;
-        height: 307px;
+        right: 80px;
+        height: 277px;
+        margin-left: -15px;
         top: 53px;
     }
     .header-image{
         width: 660px;
-        height: 412px;
+        height: 430px;
         margin-bottom: 40px;
-        margin-top: -35px;
-        margin-left: -40px;
+        margin-top: -85px;
+        margin-left: -60px;
     }
-    .h3{
-        align-self: center;
+    h3{
+        width: 900px;
+        font-size: 52px;
+        text-align: center;
         justify-self: center;
-    
     }
     .paragraph{
         font-size: 18px;
@@ -544,18 +541,13 @@ hr{
         text-align: center;
         justify-self: center;
         left: 50%;
-
+        margin-bottom: -90px;
     }
     .gallery{
         display: flex;
         flex-wrap: wrap;
         margin: 100px;
         justify-content: space-around;
-        
-        
-    }
-    .all{
-        
     }
     .Why{
         text-align: center;
@@ -574,17 +566,20 @@ hr{
     }
     .three{
         display: flex;
+        margin-bottom: 100px;
+    }
+    .guide{
+        margin-top: -24px;
     }
     .two{
         display: flex;
         flex-direction: row;
-        
     }
     .board{
         margin-left: 50px;
         width: 534px;
         height: 292px;
-        border: 1px solid blue;
+        border: 1px;
         padding: 0.5px;
         margin-top: 60px;
     }
@@ -600,16 +595,30 @@ hr{
         line-height: 32px;
         height: 96px;
         width: 534px;
-        justify-self: flex-start;
         margin-left: 25px;
         padding: 50px;
+        text-align: left;
+    }
+    .contain{
+        margin-left: 125px;
+        width: 658px;
+        height: 285px;
+    }
+    .shape{
+        width: 460px;
+        height: 200px;
+    }
+    .tourists{
+        height: 330px;
+        width: 500px;
+        margin-left: -18px;
     }
     .Watch{
         font-size: 72px;
         width: 680px;
         height: 168px;
         border: 0.2px;
-        margin-top: 50px;
+        margin-top: 90px;
         margin-bottom: 8px;
         text-align: center;
         justify-self: center;
@@ -620,12 +629,17 @@ hr{
         justify-content: space-between;
     }
     .get{
-
+        width: 1000px;
+        font-size: 60px;
+        font-weight: 400;
+        margin-left: 5px;
     }
     .Click{
         margin-top: 30px;
+        margin-right: -5px;
     }
     .first-word{
+        font-size: 28px;
         width: 91px;
         height: 33px;
         margin-left: 75px;
@@ -640,17 +654,25 @@ hr{
         padding: 20px;
     }
     .flat{
-        
+        display: flex;
+        justify-content: space-between;
     }
     .icons{
         padding: 20px;
         justify-content: start;
+    }
+    .path-2{
+        height: 25px;
+    }
+    .size{
+        height: 25px;
     }
     .footer{
         display: flex;
         justify-content: flex-end;
         align-items: center;
         gap: 40px;
+        font-size: 18px;
     }
 
 
