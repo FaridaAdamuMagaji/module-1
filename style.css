@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h1{
+    color: #25a59e;
+    border: 0.7px;
+    font-family: "Gilda Display";
+    font-size: 16px;
+    font-weight: 400;
+    width: 52px;
+    line-height: 18.83px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.title{
+    width: 327px;
+    height: 122px;
+    justify-content: center;
+    font-family: "Gilda Display";
+    font-size: 500%;
+    font-weight: 400;
+    line-height: 61.2px;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 65px;
+}
+h3{
+    width: 335px;
+    font-family: "Gilda Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    top: 0;
+    margin-top: -220px;
+    margin-left: 93px;
+}
+.paragraph{
+    width: 335px;
+    height: 48px;
+    font-family: "Urbanist";
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-left: 93px;
+}
+container{
+    display: flex;
+}
+.menu{
+    margin-left: auto;
+    border: 1.5px;
+}
+.word{
+    color: #25a59e;
+}
+.image-container {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.ellipse {
+    position: absolute;
+    width: 90%;
+    top: 24px;
+    transform: translateY(7.5%);
+    align-self: center;
+    justify-self: center;
+    left: 18px;
+} 
+.header-image {
+    position: absolute;
+    width: 100%;
+    top: 6px;
+    left: -66px;
+    z-index: 1;
+    transform: translateX(15%);
+    align-self: center;
+    justify-self: center;
+}
+.blur {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(-35%);
+    align-self: center;
+    justify-self: center;
+}
+.travel-text {
+    font-size: 400%;
+    font: Gilda Display;
+    font-weight: 400;
+    padding-top: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+.first-word{
+    color: darkturquoise;
+    margin-right: 7px;
+    margin-top: 40px;
+    width: 52px;
+    height: 19px;
+    gap: 0px;
+    border: 0.7px 0px 0px 0px;
+    font-family: "Gilda Display";
+    font-size: 16px;
+    line-height: 18.83px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.one{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+hr{
+    color: darkturquoise;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.lake{
+    width: 311px;
+    height: 262px;
+    gap: 0px;
+    margin-left: 75px;
+}
+.caption{
+    width: 303px;
+    height: 28px;
+    gap: 0px;
+    font-family: "Urbanist";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    align-self: center;
+    justify-self: center;
+}
+.fig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location{
+    width: 17px;
+    height: 20px;
+    top: 2px;
+    left: 3.5px;
+    gap: 0px;
+    margin-right: 15px;
+}
+.place{
+    width: 271px;
+    height: 24px;
+    gap: 0px;
+    font-family: "Urbanist";
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.pics{
+    height: 248px;
+    gap: 0px;
+    margin-top: 45px;
+    align-self: center;
+    justify-self: center;
+    transform: rotate(-180deg);
+    
+}
+.no{
+    background-color: rgb(250, 248, 248);
+    margin-top: 40px;
+    margin-left: 18px;
+    padding: 20px;
+}
+.Why{
+    width: 335px;
+    height: 104px;
+    font-family: "Gilda Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: center; 
+    border: 30px;
+    padding-top: 5px;
+    margin-left: 35px;
+}
+.we{
+    width: 335px;
+    height: 144px;
+    font-family: "Urbanist";
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 45px;
+}
+.guide{
+    border: 25px solid rgb(237, 237, 243);
+}
+.Best{
+    width: 295px;
+    height: 80px;
+    font-family: "Gilda Display";
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.mine{
+    margin-top: 4px;
+    margin-left: 45px;
+    margin-right: 50px;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 54px;
+    margin-top: 57px;
+    margin-bottom: 28px;
+}
+.More{
+    width: 112px;
+    height: 23px;
+    color: darkturquoise;
+    margin-right: -8px;
+}
+.Train{
+    font-weight: 400;
+}
+.ash{
+    border:25px solid rgb(237, 237, 243);
+    background-color: #25a59e;
+    padding: 10px;
+    margin-top: -24px;
+}
+.card{
+    border:25px solid rgb(237, 237, 243);
+    margin-top: -24px;
+}
+.board{
+    /*background-color: rgb(234, 234, 240);*/
+}
+.Always{
+    width: 295px;
+    height: 80px;
+    font-family: "Gilda Display";
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    color: white;
+    padding-top: 0px;
+    margin-left: 20px;
+    border: 30px;
+}
+.colored{
+    color: white;
+    margin-left: 22px; 
+    margin-right: 15px;
+}
+.white{
+    margin-right: -50px;
+}
+.Line{
+    height: 48px;
+    font-family: "Urbanist";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0;
+}
+.Ready{
+    width: 295px;
+    height: 80px;
+    gap: 0px;
+    border: 0.4px 0px 0px 0px;
+    font-family: "Gilda Display";
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 45px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.Train{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: "Gilda Display";
+    font-size: 40px;
+    line-height: 52px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+.last{
+    color: #25a59e;
+    padding-right: -25px;
+}
+.alpha{
+    width: 335px;
+    height: 96px;
+    font-family: "Urbanist";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    justify-self: center;
+    padding-top: 50px;   
+}
+.Watch{
+    width: 335px;
+    height: 156px;
+    gap: 0px;
+    margin-top: 10px;
+    margin-bottom: 27px;
+    font-family: "Gilda Display";
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 70px;
+    margin-right: 30px;
+    
+}
+.contain{
+    position: relative;
+    height: 250px;
+    padding-left: 65px;
+    margin-top: 40px;
+}
+.tourists{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 20px;
+}
+.shape{
+    position: absolute;
+    width: 320px;
+    padding: 20px;
+    bottom: -20px;
+    margin-left: 25px;
+    /* margin-left: 10px; */
+    /* position: relative; */
+    /* object-fit: cover; */
+}
+.pic{
+    width: 335.11px;
+    height: 247px;
+    z-index: 2;
+    position: relative;
+    transform: translate(-50%, -50%);
+    margin-left: 125px;
+    margin-right: 10px;
+    margin-top: 115px;
+    margin-bottom: 70px;
+    border: none;
+    outline: none;
+}
+.small{
+    position: absolute;
+    z-index: 1;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    margin-left: 70px;
+    width: 276px;
+    height: 121px;
+}
+.get{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    font-family: "Gilda Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.Click button{
+    width: 147px;
+    height: 54px;
+    padding: 16px 32px 16px 32px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+h5{
+    width: 330.67px;
+    height: 36px;
+    gap: 0px;
+    font-family: "Urbanist";
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+.third-word{
+    color: #25a59e;
+}
+.fourth-word{
+    align-self: center;
+}
+.Click{
+    display: inline-block;
+    background-color: rgba(37, 165, 158, 1);
+    color: white;
+    padding: 16px 32px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+hr{
+    height: 2px;
+    background-color: darkturquoise;
+    border-color: darkturquoise;
+    padding: 1px;
+    margin-top: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.mega{
+    font-family: "Urbanist";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.icons{
+    width: 335px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.path-2{
+    padding-right: 40px;
+}
+
