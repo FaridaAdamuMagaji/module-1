@@ -246,13 +246,13 @@ hr{
     font-weight: 400;
 }
 .ash{
-    border:25px solid rgb(237, 237, 243);
+    border: 25px solid rgb(237, 237, 243);
     background-color: #25a59e;
     padding: 10px;
     margin-top: -24px;
 }
 .card{
-    border:25px solid rgb(237, 237, 243);
+    border:25px solid rgb(234, 234, 240);
     margin-top: -24px;
 }
 .board{
@@ -548,6 +548,19 @@ hr{
         flex-wrap: wrap;
         margin: 100px;
         justify-content: space-around;
+        border: 10px;
+        row-gap: 30px; 
+    }
+    .all{  
+        border: 1px solid #f1f3f3;
+        padding: 12px;
+        background-color: white;
+    }
+    .pics{
+        margin-top: 4px;
+    }
+    .fig{
+        margin-bottom: 20px;
     }
     .Why{
         text-align: center;
@@ -555,6 +568,9 @@ hr{
         font-size: 72px;
         line-height: 64px;
         width: 640px;
+    }
+    .no{
+        background-color: white;
     }
     .we{
         text-align: center;
@@ -568,8 +584,16 @@ hr{
         display: flex;
         margin-bottom: 100px;
     }
+    .ash{
+        border-top: white;
+        border-bottom: white;
+    }
+    .card{
+        border-top: white;
+    }
     .guide{
         margin-top: -24px;
+        border-top: white;
     }
     .two{
         display: flex;
@@ -581,7 +605,6 @@ hr{
         height: 292px;
         border: 1px;
         padding: 0.5px;
-        margin-top: 60px;
     }
     .Train{
         width: 534px;
@@ -618,7 +641,7 @@ hr{
         width: 680px;
         height: 168px;
         border: 0.2px;
-        margin-top: 90px;
+        margin-top: 150px;
         margin-bottom: 8px;
         text-align: center;
         justify-self: center;
@@ -674,6 +697,4 @@ hr{
         gap: 40px;
         font-size: 18px;
     }
-
-
 }
