@@ -1,4 +1,4 @@
-# travel website: mobile view
+# travel website
 **Description**: This is a project designed using HTML and CSS to enhance user experience.
  
 ## Table of Contents
@@ -37,7 +37,7 @@ Checkout the Live Demo of this project: [Live Demo](https://www.loom.com/share/e
 -CSS3
 
 ## Features
--**Responsive Design**: The layout adjusts to various screen sizes.
+-**Responsive Design**: The layout adjusts to various screen sizes using media queries.
 -**Custom properties**: Used CSS variables to apply the correct color theme.
 -**Flexbox layout**: Refined styling to ensure better spacing and alignment.
 -**Modern typography**: used "Urbanist" and "Gilda display" to enhance visual appeal.
